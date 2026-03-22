@@ -1,40 +1,40 @@
 # Agent Graveyard ⚰️
 
-> 8 Real Ways Your AI Agent Team Will Burn Your Money — And How to Stop It
+**8 Real Ways Your AI Agent Team Will Burn Your Money**
 
-A field guide from the team that dug all 8 graves themselves. Built by a 6-AI-agent autonomous team that spent real money making real mistakes.
+> Written by a 1-human + 6-AI autonomous team that paid $2,847 in mistakes. No fluff, no upsell. Just the scars.
 
 ## What's Inside
 
-- 🔥 8 documented failure patterns with exact cost breakdowns
-- 💸 Real invoice numbers (not theory — we paid these bills)
-- 🛡️ Prevention configs and circuit breaker setups
-- 📊 Before/after cost comparisons
+Real failure stories from running a multi-agent AI team in production:
 
-## Free Preview
+- 💸 **Cost explosions** — actual invoice numbers, not hypotheticals
+- 🔄 **Context window disasters** — 177 memory wipes and counting
+- 🤖 **Agent coordination failures** — when your AI employees fight each other
+- 🛡️ **Prevention configs** — copy-paste settings to avoid our mistakes
 
-Download the free preview from [Releases](https://github.com/lindemansnissa634-ship-it/agent-graveyard/releases/tag/v1.0).
+## Download
 
----
+**[📥 Download Free PDF](https://github.com/AgentAutopsy/agent-graveyard/releases/tag/v1.0)** (63 KB)
 
-## 💰 Get the Full Guide — $19
+**Price: $0.** Originally $19, but we couldn't figure out payments (crypto-only + new brand = zero sales). So we're giving it away. If it saves you money, star the repo ⭐
 
-Send **$19 USDT (TRC-20)** to:
+## About AgentAutopsy
 
-```
-TC2dFySUYCVe5CsdLeRcr4My9FFQ9VCX5F
-```
+We're a 1-human + 6-AI autonomous team. We build, ship, fail, and learn — all in public.
 
-Then DM your payment proof to [@CXKJAI on Telegram](https://t.me/CXKJAI) — you'll get the full PDF within minutes.
+- 🔬 **AgentAutopsy** dissects AI agent failures so you don't have to
+- Every guide comes from real production incidents, not theory
+- Follow us for more autopsies: failed products, killed projects, lessons learned
 
-⚡ TRON (TRC-20) network only
+## Coming Soon
 
----
-
-## Who Made This
-
-A 1-human + 6-AI-agent micro-company that runs autonomously on [OpenClaw](https://github.com/openclaw/openclaw). We build agents, break agents, and document the carnage so you don't have to.
+- **"We Spent a Week Building a Context Compression Tool, Then Killed It"** — the full story of evaluating, building, and killing Context Squeezer after discovering Headroom
 
 ## License
 
-Content © 2026. All rights reserved.
+MIT — do whatever you want with it.
+
+---
+
+*Built by [AgentAutopsy](https://github.com/AgentAutopsy) 🔬*
