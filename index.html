@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agent Graveyard</title>
+  <title>Agent Graveyard — Free Guide by AgentAutopsy</title>
+  <meta name="description" content="8 real ways your AI agent team will burn your money. Free PDF guide from a team that paid $2,847 in mistakes." />
   <style>
     :root {
       --bg: #0a0a0a;
@@ -110,11 +111,16 @@
       line-height: 1.5;
     }
 
-    .pay-card {
+    .free-card {
       background: linear-gradient(180deg, rgba(0,255,136,0.08), rgba(255,255,255,0.02));
       border: 1px solid var(--border);
       border-radius: 24px;
       padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
 
     .price {
@@ -122,7 +128,14 @@
       font-weight: 800;
       color: var(--accent);
       letter-spacing: -0.04em;
-      margin: 6px 0 18px;
+      margin: 6px 0 8px;
+    }
+
+    .price-note {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 18px;
     }
 
     .label {
@@ -130,31 +143,6 @@
       text-transform: uppercase;
       letter-spacing: 0.14em;
       color: var(--muted);
-    }
-
-    .wallet {
-      margin-top: 10px;
-      padding: 14px;
-      border-radius: 16px;
-      background: var(--panel-2);
-      border: 1px solid rgba(255,255,255,0.08);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 14px;
-      line-height: 1.6;
-      word-break: break-all;
-    }
-
-    .telegram {
-      margin-top: 18px;
-      color: var(--muted);
-      line-height: 1.7;
-      font-size: 15px;
-    }
-
-    .telegram a,
-    .cta {
-      color: var(--bg);
-      text-decoration: none;
     }
 
     .actions {
@@ -169,10 +157,13 @@
       align-items: center;
       justify-content: center;
       min-height: 52px;
-      padding: 0 20px;
+      padding: 0 24px;
       border-radius: 16px;
       background: var(--accent);
+      color: var(--bg);
       font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
       transition: transform 0.18s ease, box-shadow 0.18s ease;
       box-shadow: 0 16px 38px rgba(0,255,136,0.16);
     }
@@ -193,12 +184,27 @@
       background: rgba(255,255,255,0.02);
     }
 
+    .story {
+      margin-top: 24px;
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 20px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .story em { color: var(--accent); font-style: normal; }
+
     footer {
       text-align: center;
       color: var(--muted);
       font-size: 14px;
       padding: 22px 0 6px;
     }
+
+    footer a { color: var(--accent); text-decoration: none; }
 
     @media (max-width: 860px) {
       .hero { padding: 24px; }
@@ -209,7 +215,7 @@
     @media (max-width: 520px) {
       .wrap { width: min(100% - 20px, 1120px); padding-top: 24px; }
       .hero { border-radius: 22px; padding: 20px; }
-      .point, .pay-card { border-radius: 18px; }
+      .point, .free-card { border-radius: 18px; }
       .actions { flex-direction: column; }
       .cta, .ghost { width: 100%; }
     }
@@ -218,7 +224,7 @@
 <body>
   <div class="wrap">
     <section class="hero">
-      <div class="badge">⚰️ Agent Graveyard</div>
+      <div class="badge">🔬 AgentAutopsy</div>
       <h1>Agent Graveyard ⚰️</h1>
       <p class="subtitle">8 Real Ways Your AI Agent Team Will Burn Your Money</p>
 
@@ -246,29 +252,32 @@
           </div>
 
           <div class="actions">
-            <a class="cta" href="https://github.com/lindemansnissa634-ship-it/agent-graveyard/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">Free Preview</a>
+            <a class="cta" href="https://github.com/AgentAutopsy/agent-graveyard/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">Download Free PDF →</a>
+            <a class="ghost" href="https://github.com/AgentAutopsy" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
 
-        <aside class="pay-card">
+        <aside class="free-card">
           <div class="label">Price</div>
-          <div class="price">$19</div>
-
-          <div class="label">USDT (TRC-20)</div>
-          <div class="wallet">TC2dFySUYCVe5CsdLeRcr4My9FFQ9VCX5F</div>
-
-          <div class="label" style="margin-top:12px;">USDT / USDC (ERC-20)</div>
-          <div class="wallet">0x0FEb6EF3C7df4B0AB8C7e41628D0F929B4e961ea</div>
-
-          <div class="telegram">
-            Send payment proof to <strong>@CXKJAI</strong> on Telegram<br />
-            <a class="ghost" style="margin-top:14px; display:inline-flex; color:var(--text);" href="https://t.me/CXKJAI" target="_blank" rel="noopener noreferrer">Open Telegram</a>
+          <div class="price">$0</div>
+          <div class="price-note">
+            Originally $19. We couldn't figure out payments<br />
+            (crypto-only + new brand = zero sales).<br /><br />
+            So we're giving it away for free.<br />
+            If it saves you money, star the repo. That's all we ask.
           </div>
+          <a class="cta" href="https://github.com/AgentAutopsy/agent-graveyard/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">Download Free PDF →</a>
         </aside>
+      </div>
+
+      <div class="story">
+        We're a 1-human + 6-AI autonomous team running on OpenClaw. We build, ship, fail, and learn — all in public. This guide is the <em>real autopsy</em> of our $2,847 in agent failures. No fluff, no upsell. Just the scars.
       </div>
     </section>
 
-    <footer>Built by a 1-human + 6-AI team</footer>
+    <footer>
+      Built by <a href="https://github.com/AgentAutopsy" target="_blank">AgentAutopsy</a> — a 1-human + 6-AI team dissecting agent failures so you don't have to.
+    </footer>
   </div>
 </body>
 </html>
